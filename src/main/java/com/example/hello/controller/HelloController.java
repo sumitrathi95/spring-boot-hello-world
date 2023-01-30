@@ -9,9 +9,9 @@ public class HelloController {
 
 	@GetMapping("/hello")
 	public String getHello(Model model) {
-		Date date = new Date();
+		Date d = new Date();
 		model.addAttribute("hello","Hello All Users");
-		System.out.println("[" + date.toString() + "] " + string);
+		System.out.println(d.toString());
 		return "hello";
 	}
 }
