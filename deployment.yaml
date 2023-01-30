@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
        -  name: spring-boot
-          image: gcr.io/devops-project-375303/spring-boot
+          image: gcr.io/devops-project-375303/spring-boot:latest
           ports:
            -  containerPort: 8080
 ---
