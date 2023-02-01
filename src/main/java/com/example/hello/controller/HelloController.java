@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String getHello(Model model) {
 		Date d = new Date();
-		model.addAttribute("hello","Hello All Users");
+		model.addAttribute("hello","Hello DevOps Users");
 		System.out.println(d.toString());
 		System.out.println("Siddesh and Vrushali and Sumit");
 		return "hello";
