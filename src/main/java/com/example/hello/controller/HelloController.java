@@ -13,6 +13,7 @@ public class HelloController {
 		Date d = new Date();
 		model.addAttribute("hello","Hello All Users");
 		System.out.println(d.toString());
+		System.out.println("Siddesh and Vrushali and Sumit");
 		return "hello";
 	}
 }
